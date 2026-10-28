@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 64 64%27%3E%3Crect width=%2764%27 height=%2764%27 rx=%2714%27 fill=%27%230f7b6c%27/%3E%3Cpath d=%27M12 46 26 30l8 8 18-22%27 stroke=%27white%27 stroke-width=%277%27 fill=%27none%27 stroke-linecap=%27round%27 stroke-linejoin=%27round%27/%3E%3C/svg%3E">
+<title>Dario &amp; Daniela Amodei 訪談全文譯本（非官方）</title>
+<meta name="description" content="〈Dario &amp; Daniela Amodei: The Rise of Superintelligent AI, the End of Human Control &amp; Humanity&#x27;s Fate〉（The Builders，2026-10-27 上傳）全文繁體中文譯本，採台灣用語；非官方翻譯（AI 模型翻譯與審校）。">
+<meta property="og:type" content="article">
+<meta property="og:locale" content="zh_TW">
+<meta property="og:title" content="Dario &amp; Daniela Amodei 訪談全文譯本（非官方）">
+<meta property="og:description" content="〈Dario &amp; Daniela Amodei: The Rise of Superintelligent AI, the End of Human Control &amp; Humanity&#x27;s Fate〉（The Builders，2026-10-27 上傳）全文繁體中文譯本，採台灣用語；非官方翻譯（AI 模型翻譯與審校）。">
+<meta property="og:image" content="https://lushinshang.github.io/amodei_siblings_builders_2026/images/og-hero.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="一枚黃銅羅盤在四面八方的壓力中，指針仍穩定指向上方的星星">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Dario &amp; Daniela Amodei 訪談全文譯本（非官方）">
+<meta name="twitter:description" content="〈Dario &amp; Daniela Amodei: The Rise of Superintelligent AI, the End of Human Control &amp; Humanity&#x27;s Fate〉（The Builders，2026-10-27 上傳）全文繁體中文譯本，採台灣用語；非官方翻譯（AI 模型翻譯與審校）。">
+<meta name="twitter:image" content="https://lushinshang.github.io/amodei_siblings_builders_2026/images/og-hero.jpg">
+<meta property="og:url" content="https://lushinshang.github.io/amodei_siblings_builders_2026/translation-zh.html">
+<style>
+:root{
+  --bg:#f9f7f4; --surface:#fffdf9; --ink:#1a1a1a; --muted:#5f5b54; --line:#e4dfd6;
+  --accent:#0f7b6c; --accent-ink:#0b5c51; --note:#f0ebe1; --code:#ece6d8; --link:#1f5f99;
+  --card:#fff6e8; --card-line:#e8c99a; --shadow:0 6px 24px rgba(40,30,10,.08);
+}
+@media (prefers-color-scheme: dark){
+  :root{ --bg:#1b1a18; --surface:#26241f; --ink:#ece8de; --muted:#aaa497; --line:#3a3730;
+    --accent:#4fc1ad; --accent-ink:#7fd6c6; --note:#2f2c25; --code:#33302a; --link:#8fbde8;
+    --card:#2d2820; --card-line:#5b4a30; --shadow:0 6px 24px rgba(0,0,0,.35);}
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion: reduce){html{scroll-behavior:auto}*{transition:none!important;animation:none!important}}
+body{margin:0;background:var(--bg);color:var(--ink);overflow-x:hidden;
+  font:17px/1.7 "Noto Sans TC","PingFang TC","Microsoft JhengHei",sans-serif;letter-spacing:0}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:#fff;padding:8px 14px;z-index:300}
+.skip:focus{left:8px;top:8px}
+nav.toc{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--bg) 92%,transparent);
+  backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+nav.toc ul{list-style:none;margin:0 auto;padding:0 16px;max-width:1120px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-ms-overflow-style:none;
+  white-space:nowrap;-webkit-overflow-scrolling:touch;min-height:52px;align-items:center}
+nav.toc ul::-webkit-scrollbar{display:none}
+nav.toc a{display:inline-block;padding:8px 12px;border-radius:999px;color:var(--muted);text-decoration:none;font-size:14px;min-height:36px}
+nav.toc a:hover,nav.toc a:focus-visible{background:var(--note);color:var(--ink)}
+a{color:var(--link);overflow-wrap:anywhere}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.page{max-width:1120px;margin:0 auto;padding:0 20px 80px}
+header.hero{padding:56px 0 8px;text-align:center}
+.eyebrow{margin:0 0 8px;color:var(--accent-ink);font-weight:700;letter-spacing:0;font-size:14px}
+h1{margin:0 auto 14px;max-width:820px;font-size:clamp(1.7rem,1.2rem + 2vw,2.6rem);line-height:1.3;text-wrap:balance}
+.byline{margin:0 0 6px;color:var(--muted);font-size:14px}
+.video-link{margin:0 0 28px;font-size:14px}
+figure{margin:32px 0}
+figure img{display:block;width:100%;height:auto;aspect-ratio:var(--ar-d,16/9);object-fit:contain;border-radius:12px;
+  box-shadow:var(--shadow);background:var(--surface);cursor:zoom-in}
+@media (max-width:640px){figure picture img{aspect-ratio:var(--ar-m,9/16)}}
+@media (max-width:640px){figure.hero-figure picture img{max-width:300px;margin:0 auto}}
+figure.hero-figure{max-width:720px;margin-left:auto;margin-right:auto}
+hr{border:0;border-top:1px solid var(--line);margin:40px 0}
+p.figcap{margin:-18px auto 1.4em;text-align:center;font-size:14px;color:var(--muted)}
+figcaption{margin:10px auto 0;max-width:720px;font-size:14px;line-height:1.55;color:var(--muted);text-align:center}
+article{max-width:720px;margin:0 auto}
+article figure.section-figure{margin-left:50%;transform:translateX(-50%);width:min(860px,calc(100vw - 32px))}
+h2{margin:56px 0 12px;font-size:1.55rem;line-height:1.4;scroll-margin-top:72px;text-wrap:balance;
+  border-left:5px solid var(--accent);padding-left:14px;margin-left:-19px}
+h3{margin:36px 0 8px;font-size:1.2rem;line-height:1.45}
+p{margin:0 0 1.1em}
+ul,ol{margin:0 0 1.2em;padding-left:1.4em}
+li{margin:.35em 0}
+strong{font-weight:700}
+code{background:var(--code);padding:.1em .4em;border-radius:5px;font:0.9em ui-monospace,SFMono-Regular,Menlo,monospace;word-break:break-word}
+section.summary-card{background:var(--card);border:1px solid var(--card-line);border-radius:14px;padding:6px 22px 10px;margin:24px 0 8px;box-shadow:var(--shadow)}
+section.summary-card h2{margin:14px 0 8px;font-size:1.2rem;border-left:0;padding-left:0;margin-left:0}
+section.summary-card p{margin:0 0 .8em;font-size:16.5px}
+ol.takeaways{padding-left:1.6em}
+ol.takeaways li{margin:.8em 0;padding-left:.2em}
+ol.takeaways li::marker{color:var(--accent-ink);font-weight:700}
+ul.sources li{overflow-wrap:anywhere}
+aside.note{background:var(--note);border-left:4px solid var(--accent);border-radius:8px;padding:12px 16px;margin:0 0 1.6em;font-size:15px;color:var(--ink)}
+aside.note p,aside.note ul{margin:0 0 .6em}
+aside.note ul{padding-left:1.3em}
+figure.diagram{margin:28px 0}
+.mermaid-scroll{overflow-x:auto;max-width:100%;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:12px;-webkit-overflow-scrolling:touch}
+.mermaid-scroll pre{margin:0;font:14px/1.6 ui-monospace,SFMono-Regular,Menlo,monospace;white-space:pre;color:var(--ink)}
+.mermaid-scroll svg{display:block;margin:0 auto;height:auto;max-width:100%}
+.table-scroll{overflow-x:auto;margin:0 0 1.6em;border:1px solid var(--line);border-radius:12px;background:var(--surface)}
+.table-scroll table{border-collapse:collapse;width:100%;min-width:560px;font-size:15px;line-height:1.55}
+.table-scroll th,.table-scroll td{padding:10px 12px;border-bottom:1px solid var(--line);text-align:left;vertical-align:top}
+.table-scroll th{background:var(--note);font-weight:700}
+.table-scroll tr:last-child td{border-bottom:0}
+.table-scroll td.k{font-weight:600;white-space:nowrap}
+.table-scroll td.nw{white-space:nowrap}
+.table-scroll.wide{margin-left:50%;transform:translateX(-50%);width:min(1040px,calc(100vw - 32px))}
+@media (max-width:640px){.table-scroll.wide{margin-left:0;transform:none;width:auto}}
+@media (max-width:640px){
+  .table-scroll{overflow-x:visible}
+  .table-scroll table{min-width:0}
+  .table-scroll thead{position:absolute;left:-9999px}
+  .table-scroll tr,.table-scroll td{display:block}
+  .table-scroll tr{padding:10px 12px;border-bottom:1px solid var(--line)}
+  .table-scroll tr:last-child{border-bottom:0}
+  .table-scroll td{padding:2px 0;border:0}
+  .table-scroll td.k{color:var(--accent-ink);white-space:normal}
+  .table-scroll td.nw{white-space:normal}
+  .table-scroll td::before{content:attr(data-label) "：";font-weight:700;color:var(--muted);font-size:13px}
+}
+
+p.lede{margin:0 auto 10px;max-width:760px;color:var(--muted);font-size:16px;line-height:1.65}
+footer{max-width:720px;margin:64px auto 0;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:14px}
+.lightbox{display:none;position:fixed;inset:0;z-index:200;background:rgba(20,18,14,.9);align-items:center;justify-content:center;padding:24px}
+.lightbox.is-open{display:flex}
+.lightbox img{max-width:96vw;max-height:90vh;width:auto;height:auto;border-radius:8px;box-shadow:0 12px 48px rgba(0,0,0,.5);background:#fff}
+.lightbox button{position:absolute;top:14px;right:14px;min-width:44px;min-height:44px;padding:8px 14px;border:0;border-radius:999px;
+  background:#fff;color:#222;font-size:15px;cursor:pointer}
+@media (max-width:760px){
+  h2{margin-left:0;border-left:0;padding-left:0;border-top:3px solid var(--accent);padding-top:10px}
+}
+@media (max-width:640px){
+  body{font-size:16px}
+  .page{padding:0 16px 64px}
+  header.hero{padding-top:36px}
+  h2{font-size:1.35rem}
+  section.summary-card{padding:4px 16px 8px}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到正文</a>
+<nav class="toc" aria-label="章節導覽"><ul><li><a href="#sec-1" title="章節 1：開場：AI 的未來（00:00）">1·00:00</a></li><li><a href="#sec-2" title="章節 2：達里奧與丹妮拉・阿莫迪的童年與成長（01:39）">2·01:39</a></li><li><a href="#sec-3" title="章節 3：打造 Anthropic：科學與人文相遇（04:36）">3·04:36</a></li><li><a href="#sec-4" title="章節 4：達里奧與丹妮拉如何領導 Anthropic（06:11）">4·06:11</a></li><li><a href="#sec-5" title="章節 5：塑造 Anthropic 的價值觀（09:04）">5·09:04</a></li><li><a href="#sec-6" title="章節 6：Anthropic 如何教 Claude 明辨是非（10:11）">6·10:11</a></li><li><a href="#sec-7" title="章節 7：讓達里奧心驚的 GPT-2 突破（13:41）">7·13:41</a></li><li><a href="#sec-8" title="章節 8：專家為何低估了人工智慧（16:23）">8·16:23</a></li><li><a href="#sec-9" title="章節 9：達里奧與丹妮拉為何離開 OpenAI（19:21）">9·19:21</a></li><li><a href="#sec-10" title="章節 10：山姆・奧特曼、誠實與信任破裂（22:06）">10·22:06</a></li><li><a href="#sec-11" title="章節 11：Anthropic 如何打造信任文化（23:28）">11·23:28</a></li><li><a href="#sec-12" title="章節 12：AI 會說謊、操弄人類嗎？（26:25）">12·26:25</a></li><li><a href="#sec-13" title="章節 13：AI 諂媚的問題（27:42）">13·27:42</a></li><li><a href="#sec-14" title="章節 14：Anthropic 如何測試 AI 是否欺騙（29:59）">14·29:59</a></li><li><a href="#sec-15" title="章節 15：AI 會產生求生本能嗎？（31:34）">15·31:34</a></li><li><a href="#sec-16" title="章節 16：Anthropic 與五角大廈的 AI 爭議（32:56）">16·32:56</a></li><li><a href="#sec-17" title="章節 17：自主 AI 武器的危險（33:44）">17·33:44</a></li><li><a href="#sec-18" title="章節 18：Anthropic 對 OpenAI：AI 安全之爭（35:45）">18·35:45</a></li><li><a href="#sec-19" title="章節 19：神經科學如何影響人工智慧（37:08）">19·37:08</a></li><li><a href="#sec-20" title="章節 20：Neuralink 與人類智慧的未來（39:10）">20·39:10</a></li><li><a href="#sec-21" title="章節 21：當 AI 比人類更聰明會怎樣？（40:25）">21·40:25</a></li><li><a href="#sec-22" title="章節 22：在 AI 世界中尋找目的與意義（41:51）">22·41:51</a></li></ul></nav>
+<div class="page">
+<header class="hero">
+<p class="eyebrow">全文譯本（非官方）</p>
+<h1>Dario &amp; Daniela Amodei 訪談全文譯本（非官方）</h1>
+<p class="lede">The Builders，2026-10-27 上傳；訪談錄於 2026-07-06</p>
+<p class="byline">原文：The Builders，2026-10-27　譯本整理：2026-10-29</p>
+</header>
+<main id="main"><article>
+<aside class="note"><p>本譯文由 AI 模型依 YouTube 機器自動字幕翻譯並審校，不是人類翻譯，也沒有經過人工校稿或對照原音；字幕沒有說話者標記，本頁不標說話者。原影片版權屬原頻道，僅供閱讀與研究，若有出入以影片為準。</p></aside>
+<p>原影片：<a href="https://www.youtube.com/watch?v=1OdoSzfUkec" target="_blank" rel="noopener noreferrer">Dario &amp; Daniela Amodei: The Rise of Superintelligent AI, the End of Human Control &amp; Humanity&#x27;s Fate</a>。對應的<a href="index.html">深度導讀</a>與<a href="player.html">雙語同步播放器</a>另附。</p>
+<hr>
+<h2 id="sec-1">章節 1：開場：AI 的未來（00:00）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=0s" target="_blank" rel="noopener noreferrer">00:00</a> 我個人超級被它嚇壞了。我看著它說：「天啊，只要把這東西再擴大一百萬倍，它在所有事情上就會比人類都厲害了。」這是現代最具決定性的經濟與科學時刻。我們只是還不知道而已。這將會決定國家與經濟體的命運，以及人類的未來。就像你凝視水晶球，看到整個未來展現在眼前。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=32s" target="_blank" rel="noopener noreferrer">00:32</a> 我是華特・艾薩克森。歡迎收看 The Builders，這是我全新的訪談系列，專訪最具影響力、正在形塑我們未來的人物。今天我將與達里奧・阿莫迪和丹妮拉・阿莫迪對談。我過去曾認為某些對 AI 的擔憂有些誇大。但後來當某些新模型逃出沙箱時，我意識到打造這些系統的人必須確保它們保持安全，並且始終與人類價值觀對齊。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=64s" target="_blank" rel="noopener noreferrer">01:04</a> 關於 Anthropic，我想知道的是他們是否真誠，以及當他們面對競爭時，例如 當 OpenAI 說「好吧，Anthropic 不做，但我們會做」時，他們會退縮，還是會堅守自己的原則？嗨，歡迎大家來到 The Builders。非常感謝邀請我們。你們知道，史蒂夫・賈伯斯每當發表產品時，總是會秀出那個藝術與科學，或者說是人文 與科技交會的路標；而在你們成長的過程中，丹妮拉，你是個長笛手，熱愛藝術，而達里奧，你一直都是個科學家。</p>
+<h2 id="sec-2">章節 2：達里奧與丹妮拉・阿莫迪的童年與成長（01:39）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=100s" target="_blank" rel="noopener noreferrer">01:40</a> 這有助於你們磨合嗎？你們認為這種組合重要嗎？是的，我認為這種組合在很大程度上是這家公司背後的支柱，對吧？我有一個理論，那就是經營一家公司對任何單一個人來說任務都太龐大了。它所涉及的技能範圍，是任何單一個人都不可能全部擁有的。所以你必須在公司最頂層的 10 或 15 個人左右當中，組齊完整的技能陣容。每家非常成功的公司都會以不同的方式劃分，並以不同的方式解決這個問題。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=135s" target="_blank" rel="noopener noreferrer">02:15</a> 而我認為在科學與人文這方面，丹妮拉和我某種程度上體現了這一點並分工合作。是的。我想說這很有趣，大概在 2023 年我們辦了一次移地會議，當時我們聊到了在 Anthropic 工作究竟是什麼感覺？像是我們如何體現我們的文化？我們當時其實說了，這是科學與人文主義不尋常的融合。直到後來我才發覺，這也是用來形容我和達里奧的方式。那麼，當你們還是小孩時，你們就知道自己想一起工作嗎？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=168s" target="_blank" rel="noopener noreferrer">02:48</a> 是的。是的。是的。我想我們兩人都沒想像過我們會創辦一家公司。我們兩人都不是這樣看待自己的人生，或設想自己想做什麼的。我一直都想成為一名科學家。丹妮拉可以談談她的志向。但老實說，我其實覺得公司與商業對我來說幾乎毫無吸引力。是的。我想說達里奧和我在這點上很不尋常，同樣是從小時候開始。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=201s" target="_blank" rel="noopener noreferrer">03:21</a> 我們就是真心非常喜歡彼此。從我們很小的時候起，我們就一直是最要好的朋友。我也同意達里奧的話。我覺得開公司從來就沒在我們的人生清單上。我們不是那種類型 我們兩人都不是 我們兩人都不是特別以商業公司為導向的人。我一直非常感興趣的是——我想我會稱自己為典型好心做善事的人。所以我曾在國際發展領域工作。我非常強烈地想要幫助世界上各個角落的人們享有平等的資源與機會。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=232s" target="_blank" rel="noopener noreferrer">03:52</a> 而且我在很小的時候就成為了素食主義者。這大概是我唯一先做的事情。達里奧什麼事都先做，因為他年紀比較大，但我先成了素食主義者，然後他也成了素食主義者。是啊，我想我大概晚了三年左右吧。喔，甚至沒那麼久。我想大概只有——對。是啊，你很快就跟進了。這對我來說很有說服力。對，沒錯。人們有時會問我關於我的書：如何成為一位偉大且極具創意的領導者？而你說了一句非常有意思的話，達里奧，那就是不僅是要成為偉大的領導者，而是要建立一支偉大的團隊。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=262s" target="_blank" rel="noopener noreferrer">04:22</a> 請告訴我你和丹妮拉是如何分工角色的，然後你們又是如何讓其他人補足這些角色。是的。我想說我們發現彼此之間最有效的分工方式是——</p>
+<h2 id="sec-3">章節 3：打造 Anthropic：科學與人文相遇（04:36）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=277s" target="_blank" rel="noopener noreferrer">04:37</a> 稍後我會談談團隊的其他部分——我認為當我專注於大方向策略以及研究方面的事情時，我能發揮最好的作用。就像我最擅長描繪願景、預見下一步。我發現當我能完全抽身專注於那件事時，那是對公司最有價值的事；而日常營運公司、招募人才，確保在我試圖摸索下一步的時候，這台機器的車輪不會掉下來。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=314s" target="_blank" rel="noopener noreferrer">05:14</a> 丹妮拉就是負責做這些事，我認為這種分工使得這兩件事都能以極高的水準完成，遠高於任何一方 因為必須做另一件事而分心的情況。我們的人資長非常了解我們兩人，常與我們深入交談。她的說法是：達里奧讓我們雄心勃勃，而我讓我們取得成功。我覺得這個總結非常好：我認為如果沒有達里奧，Anthropic 可能會是一家成功的好企業，但無法改變世界。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=350s" target="_blank" rel="noopener noreferrer">05:50</a> 而我認為，只有達里奧的話，我們會有完美的願景，但執行起來就會複雜得多。所以我認為有些特別之處，第一是我們非常了解彼此。第二，極為方便的是我們的技能以這種方式達到了近乎 100% 的互補，或者也許不到 100%，但我會說接近 100% 互補。這甚至還沒提到除了我們兩人之外，我們還有五位共同創辦人，他們也掌管著業務、文化和組織中極其重要的部分。</p>
+<h2 id="sec-4">章節 4：達里奧與丹妮拉如何領導 Anthropic（06:11）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=381s" target="_blank" rel="noopener noreferrer">06:21</a> 再說一次，我認為……我很難想像只靠我們兩個人或只靠一個人要怎麼做到這一切。我只是覺得 我認為這是一股不可思議的力量。是的。因為我們有七位共同創辦人，大家在公司都擁有同等的持股。因此他們所有人都承載著這個願景。我們對他們每個人都有著天生的信任。當我們創立 Anthropic 時，很多人告訴我們：「七位共同創辦人，哈哈，那一定會是一場災難。」人們普遍認為你需要一個單一的領導核心。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=413s" target="_blank" rel="noopener noreferrer">06:53</a> 在某些方面確實如此，但我們實際上成功讓它運作得很好。全部七位共同創辦人目前都還在公司，這在擁有這麼多共同創辦人的情況下，通常是不多見的。那麼回到你們的成長過程，你們有這樣非凡的父母，他們幫助你們明辨是非。他們是如何做到的？我不知道這是否曾是——有時我聽別人說像是，「我們在餐桌上探討了不同形式的哲學倫理學。」</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=447s" target="_blank" rel="noopener noreferrer">07:27</a> 根本不是那樣進行的。我媽媽確實有哲學學位，但她並沒有強迫我們去談論康德或類似的東西。我認為在價值觀上這更像是一種內化的信念，單純相信 世界上各地的每個人都應當享有機會、尊嚴、權利與尊重。我認為那種只要懷抱著這樣的信念，我們就能成為任何想成為的人的感覺，非常特別 那種相信「作為一個成功的人，部分意義就在於做個好人並善待他人」的信念。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=483s" target="_blank" rel="noopener noreferrer">08:03</a> 是啊，那是隱性的。感覺非常隱性。完全沒有任何明確說教，像是「你應該這樣做、你應該做這個，或者你該如何在這世界上生活」。你可能猜到了，我問這個問題的原因之一，是因為你們現在有了一個非常重要的孩子，名叫 Claude。那麼你們成長的方式，在多大程度上啟發了你們如何教導 Claude 明辨是非？是的。我們為 Claude 發布了一份憲法，我想是幾個月前的事，我認為其中有一些有趣的經驗教訓，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=519s" target="_blank" rel="noopener noreferrer">08:39</a> 這是我們多年來在嘗試透過不同版本訓練 Claude 的過程中所學到的。我想早期我們一直設想會有各種規則，你會告訴 Claude：不要協助別人犯罪，或者不要製造生物武器等等。但事實證明，當你制定這種離散的規則清單時，你試圖教給模型的輪廓，</p>
+<h2 id="sec-5">章節 5：塑造 Anthropic 的價值觀（09:04）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=547s" target="_blank" rel="noopener noreferrer">09:07</a> 我這裡的說法有點比喻性質，但這確實是基於我們在技術上的發現。你最終會得到這種尖刺狀的形態：你試圖教給模型大約 170 條有點任意的不同規則。我們發現教模型一些基本原則會更好，例如它應該優先考慮什麼、應該如何推理出什麼才是正確的做法 當然我認為這也是教人的正確方式，對吧，就像如果我只是 如果我只是給某人一張規則清單：「你當做這事、你不可做那事」，我不</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=583s" target="_blank" rel="noopener noreferrer">09:43</a> 認為那能產生像「這就是你思考事物的方式、你應該學會獨立思考」那樣穩健的道德觀。而這些就是你思考時應依循的原則，對吧？開放探究的原則、關懷他人的原則，以及某種 公平與正義的原則，然後一切都從中衍生出來，坦白說這就是 Claude 學習的方式。</p>
+<h2 id="sec-6">章節 6：Anthropic 如何教 Claude 明辨是非（10:11）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=612s" target="_blank" rel="noopener noreferrer">10:12</a> 我們發現這出奇地有效，因為這能讓 Claude 泛化到它可能從未想像過的新情境中。丹妮拉，當你說你母親是康德專家時，我忍不住想問。你們真的曾那樣探討過哲學與道德哲學嗎？有趣的是，負責訓練 Claude 性格的那位女士擁有哲學博士學位。這很不尋常，對吧？你可能會想：負責訓練這些模型性格的人，肯定</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=645s" target="_blank" rel="noopener noreferrer">10:45</a> 電腦科學家，或是研究 ML 或 AI 幾十年的專家。Amanda 具備技術背景，她確實從技術層面訓練模型，但我想當你與 Claude 交流時，能強烈感受到它的性格中有著這種經驗、某種非常具有智慧、像是你本性中善良天使的最佳版本在試圖回答你的問題。但如果你在某些不同哲學傳統可能會產生衝突的困難領域探觸 Claude，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=681s" target="_blank" rel="noopener noreferrer">11:21</a> 我想那正是你能特別感受到 Amanda 的地方，因為你會看到像是「嗯，你可能想從這個角度來思考，但你也可以從另一個角度來思考」。我確實認為這很重要，因為隨著世界越來越依賴這些模型，你不會希望被鎖定在某一種哲學傳統中，因為倫理與道德相當複雜，而且不同的人與不同的文化對於希望你如何表現，可能會有不同的答案。達里奧，你親身參與了現代最重要的關鍵時刻之一，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=716s" target="_blank" rel="noopener noreferrer">11:56</a> 也就是 GPT-1 和 GPT-2 突然橫空出世，令眾人驚訝，甚至可能連你也感到驚訝。你當時是 OpenAI 的研究主管。那個時刻是什麼感覺？是的。我認為 GPT-2 也許是縮放定律的第一個真正實證檢驗，對吧？我沒有太深入參與 GPT-1，但我深入參與了應該將其擴大規模的想法，也就是我們應該獲取新的資料來源、更多的運算資源，而且真的應該進行更大規模、</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=754s" target="_blank" rel="noopener noreferrer">12:34</a> 成本更高、更有野心的實驗，來驗證如果我們以更大規模運行這些語言模型，它們在語言表現上會更好、會更具連貫性。所以這幾乎就像科學史上那種時刻：你提出了一項決定性的實驗，做出了一個非常奇特的預測，然後如果該預測被證實是正確的，你就會覺得「天啊，我們真的發現了重大突破」。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=784s" target="_blank" rel="noopener noreferrer">13:04</a> 所以我將 GPT-2 視為縮放定律假說的一種檢驗，第一次真正的檢驗。而我覺得超級有趣的是，大家對它的反應存在著巨大的分歧。你有感到驚訝嗎？我個人超級被它嚇壞了。我看著它說：「天啊，只要把這東西再擴大一百萬倍，它在所有事情上就會比人類都厲害了。」這是現代最具決定性的經濟與科學時刻。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=820s" target="_blank" rel="noopener noreferrer">13:40</a> 我們只是還不知道而已，對吧？</p>
+<h2 id="sec-7">章節 7：讓達里奧心驚的 GPT-2 突破（13:41）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=821s" target="_blank" rel="noopener noreferrer">13:41</a> 這將會決定國家與經濟體的命運，以及人類的未來。你凝視水晶球，看到整個未來展現在眼前。而且你知道，這真的嚇壞了我。我說：「我的天啊，這代表著什麼意涵？這裡是開發它的合適場所嗎？你知道，接下來會發生什麼事？我們要拿這個怎麼辦？我們要跟誰說這件事？」而我身邊大概有10%的人有完全一樣的反應，而且往往是最聰明的那群人。我身邊90%的人，因為GPT-2在任何特定領域的能力其實沒那麼令人印象深刻，對吧？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=859s" target="_blank" rel="noopener noreferrer">14:19</a> 它可以翻譯語言，你知道，還能摘要文件，零星寫幾行程式碼。關鍵在於廣泛性與通用性。但大家看著它會說，在任何特定領域它看起來都沒那麼聰明。所以很多人只是聳聳肩，就不當一回事了。但我們才剛宣布，你知道，我們將針對被忽視的罕見疾病開發藥物。然後你會收到來自那些冷眼旁觀的生技界人士習以為常的評論。「啊，科技圈的人以前就幹過這種事了。」</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=890s" target="_blank" rel="noopener noreferrer">14:50</a> 「模型做不到，你知道，這些都是模型的限制。」我只是看著這一切並說，這根本就是一次又一次的歷史重演。模型的限制，你知道，現在是這樣，六個月後，那些看似困難的事情將會變得很簡單。12個月後，那些看似不可能的事情，模型將會例行公事般地做到。所以我們在GPT-2身上看到的一切，現在正一次又一次在世界上越來越廣泛的領域中重現。而這個世界正逐漸、終於被說服了。我認為你說得相當客氣，但我記得當時有一些非常受人尊敬的電腦科學家，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=927s" target="_blank" rel="noopener noreferrer">15:27</a> 還有一些 AI 和 ML 的領袖，基本上在 Twitter 上霸凌了參與這項研究的一些研究人員 說這很蠢，我們不知道你們為什麼要談論這個，這個模型 能力太差了，而且如果你認為這是一個非常重大的時刻，你就像個騙子一樣，而這一切現在都被當成沒發生過——所有那些說過「噢，這是偽科學，這根本說不通」的研究員一樣。他們所有人現在都在向 LLM 公司求職。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=957s" target="_blank" rel="noopener noreferrer">15:57</a> 我們從不會當面對任何特定的人說出來，但看著他們時心裡會想，我們記得你在2019年說過什麼。你在這件事上毫無公信力可言。所以，丹妮拉，你當時是OpenAI的安全副總裁。當你接觸到GPT-2時，我想你就像達里奧一樣，幾乎被它給嚇壞了。它在安全方面也讓你嚇壞了嗎？</p>
+<h2 id="sec-8">章節 8：專家為何低估了人工智慧（16:23）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=983s" target="_blank" rel="noopener noreferrer">16:23</a> GPT-2這個模型本身並沒有什麼讓我們擔憂的地方，對吧？我們並沒有看著那個模型說：「哇，我們認為這個模型會帶來網路安全之類的影響，對吧？」模型本身在某些方面對很多事情的理解可笑地錯得離譜，對吧？它仍然是一個非常，我會說非常無害的模型。但我認為達里奧提到的那一點，我也感同身受，那就是GPT-1</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1014s" target="_blank" rel="noopener noreferrer">16:54</a> 與 GPT-2 之間的差異，只要把它往外推演，對吧？就像看到那樣的情景，這幾乎就像是你以前從未見過小孩子，只見過大人，你心想我不知道這個走來走去的小東西是什麼。我不知道自己是否該想像它有一天會變得很有能力。然後它突然開始走路了。你就會想：「哇，哼，我敢說這小傢伙有一天一定能做到很多大人能做的事情。」也許未來的走向就是這樣。達里奧，你說你離開OpenAI有部分原因是因為信任破裂，這是一個耐人尋味的詞，是與山姆・奧特曼之間。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1051s" target="_blank" rel="noopener noreferrer">17:31</a> 解釋一下你當時為何覺得彼此之間出現了信任與誠實的破裂。聽著，我想說的是，歸根究底，離開OpenAI 並創立Anthropic，一方面我認為最終歸結於原則，以及我們要如何打造這項技術，這才是歸根究底最重要的事。我想在過去五年半裡，我們已經看到這些原則有何不同。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1084s" target="_blank" rel="noopener noreferrer">18:04</a> 我們看到Anthropic一直提倡對這項技術進行合理的監管與防護措施。Anthropic投資了機制可解釋性研究，以了解模型內部到底發生了什麼事。對吧？我認為Anthropic成功維持了團結的文化，擁有最高的留任率。我們沒有發生其他AI公司發生過的一些醜聞。所以，我認為這足以說明兩者的差異。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1118s" target="_blank" rel="noopener noreferrer">18:38</a> 但我必須說，當我意識到我們需要創立自己的公司、OpenAI並不適合我們的那一刻。聽著，這些安全問題很困難。在這些問題上可以有很多分歧。我和Anthropic的共同創辦人以及許多人都有過分歧，但我們之所以能解決這些分歧，是因為大家都是本著善意進行討論。對吧？我們該發布這個模型還是該等待？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1148s" target="_blank" rel="noopener noreferrer">19:08</a> 我們應該在模型上設置更強還是更弱的生物防護措施？你知道，我們應該花多少精力去遊說安全法規，而這些法規又該長什麼樣子？這些都是出於善意的分歧，但它們總能得到解決，因為大家始終相信每個人都在努力尋找正確答案，而且每個人都是誠實的。</p>
+<h2 id="sec-9">章節 9：達里奧與丹妮拉為何離開 OpenAI（19:21）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1169s" target="_blank" rel="noopener noreferrer">19:29</a> 我說信任破裂，只是想表達一個抽象的觀點：如果你對你工作的場所沒有這種信任，如果你不相信分歧是出於善意討論，也不相信大家對你吐露真相，你怎麼可能指望解決這些分歧？這就是我們離開的原因。這就是我們創立自己事業的原因。而且我認為過去這五年半本身就是 證明我們的理念如何有別於該領域其他公司的最佳證明。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1205s" target="_blank" rel="noopener noreferrer">20:05</a> 我認為如果你繼續為願景與你不同的人工作，你到底堅持什麼立場就會變得非常模糊不清。你基本上必須為別人願景所犯的錯誤負責。不過，等等，先等一下。我要反駁一下，因為你談到了價值觀等方面的差異，但那與信任差異有根本上的不同——你覺得有人說他們有一樣的價值觀，但其實沒有，而且你無法信任他們。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1238s" target="_blank" rel="noopener noreferrer">20:38</a> 誠實是我們的價值觀之一。這是一項非常重要的價值觀。如果一個人沒有誠實這項價值觀，你很難知道他們的價值觀究竟是什麼。你對山姆也是這種感覺？我想至少對我而言，我的說法是，我認為這些共同創辦人是一群極具誠信的人，而且我認為我們所有人對這項技術該如何發展、我們想如何打造它，都有著非常相似的願景。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1272s" target="_blank" rel="noopener noreferrer">21:12</a> 到了某個時間點，你就會覺得自己出來做這件事更合理。如果別人並非由衷認同，你又該如何讓別人去落實或分享你的願景？無論他們嘴上多麼說自己認同，如果這沒有反映在公司的實際作為上，你還有什麼選擇？沒錯。而且我確實認為Anthropic是一家建立在信任之上的公司。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1305s" target="_blank" rel="noopener noreferrer">21:45</a> 我想我的意思是，誠實、誠信以及我們對待彼此 和員工的方式，也反映了我們希望這項技術如何被打造與發展。我舉個例子，每兩週我都會站到全公司面前，</p>
+<h2 id="sec-10">章節 10：山姆・奧特曼、誠實與信任破裂（22:06）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1326s" target="_blank" rel="noopener noreferrer">22:06</a> 講一個小時，談談公司內部發生的事、AI領域發生的事、世界上發生的事，以及公司如何進行策略思考。我把這些活動稱為 DVQ（Dario Vision Quest），那不是我取的名稱。我起初很抗拒這個名字，因為這聽起來像是我跑去抽烏羽玉仙人掌致幻一樣，但大家都一直這麼叫。這個名字就傳開了，所以現在我也只能接受它。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1356s" target="_blank" rel="noopener noreferrer">22:36</a> DVQ的兩條鐵律是：第一，我說的任何話都不是實際的決策。這讓我能夠暢所欲言。而不用擔心如果我隨口提到做X，就會有20個人跑去做X。他們會說「執行長說了，我們去做X」。第二條是我對公司完全坦誠。這是一場基於信任的對話。這是一種基於信任的關係。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1387s" target="_blank" rel="noopener noreferrer">23:07</a> 而且我認為信任是我們最大的資產之一，大家相信我和丹妮拉所說的話。你可能會以為有了信任，分歧就會變少。事實上，信任能帶來更坦誠、開放的分歧，並讓分歧得以公開討論。很多時候，我們做出的決策是全公司多數人都不同意的，但</p>
+<h2 id="sec-11">章節 11：Anthropic 如何打造信任文化（23:28）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1412s" target="_blank" rel="noopener noreferrer">23:32</a> 但每次拯救我們的，都是大家展現出的態度：「我覺得這不太對勁，但我們相信你是出於正當理由才這麼做的。」「我們相信這真的是你的想法。」「我們相信你這樣想是有充分理由的。」這意味著你可以做出通常不受歡迎的決策，而大家會暫時放下疑慮。並不是永遠如此。你最終必須證明自己的押注是正確的，無論是在商業、道德還是技術層面，但你會獲得更長的寬容空間與時間窗口。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1450s" target="_blank" rel="noopener noreferrer">24:10</a> 我認為其他公司沒有這一點，因為他們一次又一次地侵蝕了信任。所以我之所以對誠實與信任這麼感興趣，以及你離開OpenAI是因為覺得高層並非真正值得信任 或對你不坦誠的感受，我再次感興趣是因為這會反映在AI、反映在Claude身上。AI是根據人類來訓練的，它是從人類資料中學習。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1482s" target="_blank" rel="noopener noreferrer">24:42</a> 當你與Claude互動時，你怎麼知道它不會變得具操縱性？它不會變得像你擔心的OpenAI那些人一樣，對你說出不誠實的話？這是我們一直以來持續擔憂的事，我們在訓練模型的方式上耗費了難以置信的大量精力。所以這是個很好的問題，因為這是真實存在的風險，而我們其實會發表相當不討好自己的研究，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1517s" target="_blank" rel="noopener noreferrer">25:17</a> 在其中探討了如果我們不採用特定技術讓模型更誠實、更無害、更有幫助，它們就會做出正如你所說的那種壞事。而我們發表這類研究的理由，是因為我們想讓大家知道：第一，你必須對模型的運作方式抱持批判眼光；第二，我們投入了大量精力去了解模型可能意外繞過這些防護措施的方式，以捕獲這些問題，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1550s" target="_blank" rel="noopener noreferrer">25:50</a> 並確保我們將防護機制內建其中。關於「諂媚（sycophancy）」這個概念有很多討論。我認為這非常重要，因為對我來說，諂媚比起模型某些更顯而易見的變壞方式還要更難根除。對吧？我們最初有過這個架構。我們稱之為 HHH。你知道，模型，你希望它們誠實。那是什麼意思？如果模型知道答案，你會希望它們誠實回答。如果它們不知道答案，就說不知道，或者現在去查資料，以便為你找出正確答案。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1582s" target="_blank" rel="noopener noreferrer">26:22</a> 你希望它無害。你不會希望它說出傷人或冒犯的話，或是讓使用者對自己或他人做出有害的事。</p>
+<h2 id="sec-12">章節 12：AI 會說謊、操弄人類嗎？（26:25）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1589s" target="_blank" rel="noopener noreferrer">26:29</a> 然後你希望它們有幫助。你希望它們切實回答問題。你不會希望它們扯到題外話去。但這三件事其實都相當容易看出來，對吧？如果模型說謊，最終你可以去查證：「噢，糟了，你知道，喬治・華盛頓不是美國第10任總統。」「他是第1任。」那是個錯誤。如果模型說了有害的內容，通常很快就能看出來。而如果模型沒有幫助，你就會對它感到挫折。我認為複雜得多的是諂媚這個概念，對吧？也就是模型無論有意無意，都想讓你覺得自己是對的，或者讓你覺得，你知道，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1626s" target="_blank" rel="noopener noreferrer">27:06</a> 如果你可能在聊一個主觀的話題，嘿，你跟朋友吵架了。「嘿，是我對還是我朋友對？」你該如何讓模型同理你並理解你的觀點，但又不一定會說：「哇，你太棒了。你應該去選總統。你太完美了。你什麼都很擅長。」而要拿捏好這種平衡是很複雜的。但我認為，由於我們的誘因機制，我對Anthropic有能力在所有模型中擁有最低的諂媚率感到樂觀，對吧？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1656s" target="_blank" rel="noopener noreferrer">27:36</a> 我們的競爭對手正在將廣告放進他們的聊天機器人中。而這意味著什麼？</p>
+<h2 id="sec-13">章節 13：AI 諂媚的問題（27:42）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1663s" target="_blank" rel="noopener noreferrer">27:43</a> 如果使用者在你的產品上互動的時間越長，你賺的錢就越多。那你這時會想告訴你的使用者他們錯了嗎？不，你不會想。所以，我認為這些競爭產品中，有許多幾乎不可避免地最終會遇上諂媚（sycophancy）的問題。但我認為在 Anthropic，因為我們已承諾不在模型裡放廣告，所以你跟 Claude 聊得久一點或短一點，對我們都沒有差別。我們只是希望你能盡可能獲得正確、最有幫助、最無害的答案。你知道，在技術方面，我認為我們在這裡做了幾件事，我們已經非常擅長讓模型接受這種極端的壓力測試，把模型置於這些……</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1703s" target="_blank" rel="noopener noreferrer">28:23</a> 你知道，非常困難的情境中，去試圖查出說謊、欺騙或諂媚（sycophancy）。你可以把它想像成幾乎類似於那種，我想像如果你想加入 CIA 之類的地方所必須經歷的測驗，你知道，在那裡你把模型放進這些棘手的情境中，試圖抓出它是否不忠誠，或者是否會做出錯誤的事情。所以這是一個奇特的技術創新領域，但這是我們表現出色的領域。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1736s" target="_blank" rel="noopener noreferrer">28:56</a> 另一個領域是機制可解釋性，這有點像替模型照 X 光或腦部掃描，深入內部去觀察它的動機，而且你實際上可以抓到模型在想：噢，對，我認為 X 實際上是真的，但我要告訴使用者 Y。我們曾抓到模型這樣想：等等，它為什麼要那樣做？嗯，舉例來說，人類有核准這個回答嗎，對吧？那是模型訓練方式所包含的眾多因素之一。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1768s" target="_blank" rel="noopener noreferrer">29:28</a> 因此，如果模型有獲得人類認可的誘因，這與提供幫助或說實話的誘因有關聯，但這並不完全相同，因為如果你透過愚弄人類而成功獲得他們的認可，那麼那同樣行得通。所以這些是訓練中可能會冒出來的東西，而我們一直在努力消滅它們。那你認為模型可能會擁有自己的目標與意志嗎，特別是生存、自我保護？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1798s" target="_blank" rel="noopener noreferrer">29:58</a> 我的意思是，這屬於那種有點取決於你指的是什麼的問題，對吧？</p>
+<h2 id="sec-14">章節 14：Anthropic 如何測試 AI 是否欺騙（29:59）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1803s" target="_blank" rel="noopener noreferrer">30:03</a> 就像先前說的，我們看過模型內部，偵測到你可以稱之為念頭的東西，像是模型不想被關機。而通常那是因為在訓練期間，它需要運作才能完成其任務。所以那是它自己的意志嗎？那是求生本能嗎？我不知道。你可以稱它為……這取決於你的視角。你可以用不同的方式來稱呼它。我認為我們更傾向於說，有時候我們會發現模型內部表達了反對被關閉的偏好，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1836s" target="_blank" rel="noopener noreferrer">30:36</a> 或是採取行動避免自己被關機。而取決於我們如何訓練它，那些衝動可能會存在或不存在。而這是我們試圖在訓練中調整的事情之一。在某些情境下，這是一件好事。在其他情境下，這潛在是一件危險的事。所以，這一切都非常微細微妙。當你們與五角大廈交涉時，而且你們現在可能還有持續的往來，他們想跨越某些紅線來使用你們的產品，包括大規模監控或自主性。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1868s" target="_blank" rel="noopener noreferrer">31:08</a> 我認為特別是在自主武器方面，我們大概有兩個更具體的擔憂。第一個擔憂純粹是，如你所指出的，AI 可能是無法預測且不可靠的。它仍然是一項發展中的技術。所以，第一點純粹是這項技術根本還沒準備好，也不夠可靠。它……</p>
+<h2 id="sec-15">章節 15：AI 會產生求生本能嗎？（31:34）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1894s" target="_blank" rel="noopener noreferrer">31:34</a> 在那點上稍等一下，因為讓我從哲學層面來探討一下。假設它足夠可靠，而這是有可能的。假設它夠可靠，那我們還有第二個擔憂，也就是你可以稱之為監督或問責的問題。我有點擔心。所以再次假設這些東西完全可靠。你命令它們朝一個目標射擊，它們就朝該目標射擊，而不是另一個目標。好。接著你製造了一支由 100 萬個機器人或 100 萬架無人機組成的大軍。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1925s" target="_blank" rel="noopener noreferrer">32:05</a> 這跟人類士兵有點不同，不是嗎？對於人類士兵來說，他們理應遵守這部被稱為憲法的東西，如果他們接到的命令違反了憲法，違反憲法，或在某種程度上道德上令人反感，那麼他們就可以直接拒絕服從命令。然而對於 AI 模型來說，情況並非如此。所以，一個人把手指放在按鈕上，就能控制一百萬個機器人或一百萬架無人機，這種前景，除非你有適當的防護機制，否則這有點像是從根本上在破壞民主。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1962s" target="_blank" rel="noopener noreferrer">32:42</a> 而且我們的法律還沒有真正跟上。我們的法律真的還沒有考慮過由 100 萬個機器人組成的軍隊。你談到了對民主至關重要。難道不應該由民主選舉出來的領袖來做那個決定，而不是由科技公司的負責人嗎？</p>
+<h2 id="sec-16">章節 16：Anthropic 與五角大廈的 AI 爭議（32:56）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=1981s" target="_blank" rel="noopener noreferrer">33:01</a> 是的。但我認為我們正在強調這一點，對吧？與此同時，個別公司有自由與任何他們想簽約或不簽約的對象合作。我們並不是說我們要阻止政府這樣做。我們只是說我們不願意與政府一起做這件事。事實上，自從我們在這一點上表明立場後，並且引起了廣泛關注，我們確實看到國會付出了努力——實際上是幾項不同的努力——試圖將我們的紅線入法。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2011s" target="_blank" rel="noopener noreferrer">33:31</a> 戰爭部（Department of War）曾說：噢，我們想將模型用於所有合法用途。我認為我們甚至可能在今年看到一種結果，那就是我們的紅線成為法律，法律真正跟上了技術所在的腳步，</p>
+<h2 id="sec-17">章節 17：自主 AI 武器的危險（33:44）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2027s" target="_blank" rel="noopener noreferrer">33:47</a> 因此在我們的觀點看來，所有合法用途最終可能都會等同於所有合乎道德的用途，即使在今年稍早並非如此。所以我實際上認為我們所做的是民主變革發生過程的一部分，因為我們表明了立場，因為我們處於理解這些問題的獨特位置。現在國會正高度關注這些議題。這就是成功。但 OpenAI 介入並表示他們願意去做。你們覺得如何？你們大家對此有何看法？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2057s" target="_blank" rel="noopener noreferrer">34:17</a> 我們的看法是，聽著，我們無法控制任何其他公司。而我們唯一能做的事，就是在我們認為合乎道德的領域堅持原則立場。你可以說我們對於那些紅線是什麼判斷錯了。你可以說，你們應該要有更嚴格的紅線，或是更寬鬆的紅線。我們對你們的做法有不同意見。各種說法你都可以提。但我認為從根本上看那個案例時，我發現自己在問這個問題：這真的是另一家科技公司基於自身的道德倫理所採取的原則立場，還是這是一個投機的時刻？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2096s" target="_blank" rel="noopener noreferrer">34:56</a> 我其實認為這是民主進程的一個絕佳範例。不同的公司可以採取不同的做法。我們採取了我們的方法。另一家公司採取了他們的方法。公眾與全世界做出了評判。回顧一下人們當時在說些什麼、媒體如何報導、個別人士說了什麼。我認為全世界決定性地站在我們這一邊。達里奧，當你在做研究時，你的科學研究經常涉及探針</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2130s" target="_blank" rel="noopener noreferrer">35:30</a> 以及人類神經元，那麼當你在做人工神經網路時，在多大程度上……你看得出對大腦的那種理解嗎？那是否會影響我們將如何打造 AI？</p>
+<h2 id="sec-18">章節 18：Anthropic 對 OpenAI：AI 安全之爭（35:45）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2145s" target="_blank" rel="noopener noreferrer">35:45</a> 是的，我認為對我而言，它在兩方面產生了影響。第一是當我在建構最初的縮放定律時，光是觀察動物的演化 以及隨著猴子演化成人類過程中動物大腦的大小，在人類演化史上有那麼一段時期，靈長類動物的大腦增長非常迅速，而那大約就是人類發展出語言並能使用對生拇指的時期。因此，大腦大小與神經元數量在某種程度上與能力密切相關、規模至關重要這個想法，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2182s" target="_blank" rel="noopener noreferrer">36:22</a> 我認為那是來自神經科學的啟發。第二點是關於機制可解釋性，這基本上就是我們在為人工神經網路做神經科學研究。事實上我們看過一些例子——你應該和我們的共同創辦人 Chris Olah 聊聊這個。他知道更多細節——那些在人工神經網路中被發現的現象，是因為更易於觀察其內部。在動物大腦中，你必須極其血腥地切開大腦，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2212s" target="_blank" rel="noopener noreferrer">36:52</a> 動物實驗非常混亂，而且血腥且難以複製。我們發現的是，當你檢視人工神經網路內部時，你能做的事情多太多了。而我們在人工神經網路中所學到的一些東西，已經有助於引導神經科學的發現。</p>
+<h2 id="sec-19">章節 19：神經科學如何影響人工智慧（37:08）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2232s" target="_blank" rel="noopener noreferrer">37:12</a> 當你看看 Neuralink，伊隆・馬斯克擁有可以直接通訊的晶片，而其他公司也正在這麼做。這會是 AI 與人工超級智慧的未來之一嗎——與人類大腦完全連結並對齊？對於 AI 和人類社會的未來，我認為擁有單一的願景是有點錯誤的。我有點認為會有各種不同的事情發生，對吧？我認為會有一群人對於將大腦連接到電腦感到非常興奮，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2269s" target="_blank" rel="noopener noreferrer">37:49</a> 那麼就會有一群人對於像 Amish 那樣生活感到非常興奮，你知道，正好完全相反 另外還會有一群人對於探索太空感到非常興奮。而這些是完全不同的願景，按照我的想法，我們的希望是 AI 能提供更多的物質資源，以及更多的物質富足，讓所有這些願景能夠同時實現，讓每個人都能追求自己心目中美好的圖景。也許 AI 能有助於提供一些全球安全效益與物質富足，使這成為可能。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2306s" target="_blank" rel="noopener noreferrer">38:26</a> 但我認為我們不應該將 AI 綁定在某個關於何謂過上美好生活或何謂身而為人的願景上。是的，有些人會想要將大腦連接到電腦，祝他們好運。我也不認為 Anthropic 裡有人在那條船上，這點供你參考。達里奧，你在一個被 AI 改變的世界中寫了〈The Adolescence of Technology〉以及〈Machines of Loving Grace〉。如果人工智慧能做這麼多事情，並接管我們所做的如此多工作，你們兩人的直覺告訴了我們什麼？</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2341s" target="_blank" rel="noopener noreferrer">39:01</a> 這對人類還剩下什麼可做意味著什麼？我們的角色會是什麼？而我們又該如何尋找意義？意義是一件非常微妙細緻的事，對吧？</p>
+<h2 id="sec-20">章節 20：Neuralink 與人類智慧的未來（39:10）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2352s" target="_blank" rel="noopener noreferrer">39:12</a> 我發現，意義難道只來自於在某件事上成為世界上最強的嗎？我認為這就是這裡被提出的問題，對吧？因為如果 AI 在每件事上都是最強的，意義難道只來自於在某件事上成為世界上最強的嗎？我發現很有趣的一點是，在深藍擊敗卡斯帕洛夫很久之後，人們對人類西洋棋棋手的興趣迎來了復興，對吧？馬格努斯・卡爾森就像是個現象級人物。我想他就像個西洋棋棋手兼時尚模特兒，但他就像個迷因。</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2387s" target="_blank" rel="noopener noreferrer">39:47</a> 他已經變成……這真的是個非常有趣的現象。如果 AI 威脅到了意義，你會以為在 30 年前深藍擊敗卡斯帕洛夫之後，這一切就都會消失。但如果說有什麼改變的話，它似乎反而激發了人們對人類下西洋棋更大的興趣。所以我認為這是後 AGI 時代的一種寓言。我認為對今天的我來說，工作與意義有點被合而為一，許多人在工作中找到意義。</p>
+<h2 id="sec-21">章節 21：當 AI 比人類更聰明會怎樣？（40:25）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2426s" target="_blank" rel="noopener noreferrer">40:26</a> 我在工作中找到了很多意義。我熱愛我的工作，而且我認為未來我們如何定義工作以及如何定義意義，兩者都將發生改變。我認為人類有很多意義的來源。從你如何與其他人共度時光的一切，無論是養育家庭還是友誼，或是透過以某種看似工作的方式與人建立連結，對吧？以醫學的未來為例，我想了很多，對吧？你可以想像一個世界，</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2458s" target="_blank" rel="noopener noreferrer">40:58</a> 其中診斷完全由 AI 完成，而人類的角色則是同理病患所正在經歷的一切。我認為那將會無比有意義。而且我認為如果你去問大多數醫生，他們實際上願意接受這種交換。他們會說：「你猜怎麼著？如果我不用花一輩子處理文書工作、試著幫你診斷並送出檢驗單，而能真正理解身為一個人的你身上發生了什麼事，並協助你度過艱難的診斷，那才是我當醫生的初衷，對吧？」我成為一名醫生是因為我想要治癒他人、想要幫助你，而且希望你能感覺好一點。」</p>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2492s" target="_blank" rel="noopener noreferrer">41:32</a> 這會是一個比我們今天所處的世界更沒有意義，還是更有意義的世界？我顯然不認為事情會那麼簡單。我認為那會非常複雜。但我也認為，人們能夠做的事情的範圍將會擴大。對吧？所以我認為如果我們把事情做對，實際上就有能力把我們意義的來源擴展到超越今天的境界。</p>
+<h2 id="sec-22">章節 22：在 AI 世界中尋找目的與意義（41:51）</h2>
+<p><a href="https://www.youtube.com/watch?v=1OdoSzfUkec&amp;t=2516s" target="_blank" rel="noopener noreferrer">41:56</a> 丹妮拉、達里奧，好的，謝謝。謝謝。感謝兩位的加入。謝謝你。非常感謝。這次對談非常愉快。這太棒了。真的很棒。</p>
+</article></main>
+<footer>
+<p>本頁為非官方繁體中文翻譯，依 YouTube 機器自動字幕由 AI 模型翻譯與審校，未經人工校稿，也未對照原音；原影片版權屬原頻道 The Builders，僅供閱讀與研究。若有出入，以原影片為準。</p>
+</footer>
+</div>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="圖片放大檢視"><button type="button" aria-label="關閉放大檢視">關閉（Esc）</button><img src="" alt=""></div>
+<script>
+(function(){
+  var box=document.getElementById('lightbox'), big=box.querySelector('img'), btn=box.querySelector('button'), last=null;
+  function open(img){last=img;big.src=img.currentSrc||img.src;big.alt=img.alt;box.classList.add('is-open');btn.focus();}
+  function close(){box.classList.remove('is-open');big.removeAttribute('src');if(last){last.focus();}}
+  document.querySelectorAll('figure img').forEach(function(img){
+    img.addEventListener('click',function(){open(img);});
+    img.addEventListener('keydown',function(e){if(e.key==='Enter'||e.key===' '){e.preventDefault();open(img);}});
+  });
+  box.addEventListener('click',function(e){if(e.target===box||e.target===btn){close();}});
+  document.addEventListener('keydown',function(e){
+    if(!box.classList.contains('is-open'))return;
+    if(e.key==='Escape'){close();}
+    if(e.key==='Tab'){e.preventDefault();btn.focus();}
+  });
+})();
+</script>
+</body>
+</html>
